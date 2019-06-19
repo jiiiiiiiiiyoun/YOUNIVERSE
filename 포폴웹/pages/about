@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Fugaz+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Knewave&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Changa+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+
+
+
+	<style type="text/css">
+
+
+		*{
+			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+
+		body{
+			 
+			 background-image: url(image/3.png);
+			 background-repeat: no-repeat;
+			 background-size: cover;
+		}
+		
+
+		.navbar{
+			height: 80px;
+			
+			line-height: 80px;
+
+		}
+
+		.navbar a{
+			font-family: 'Fugaz One', cursive;
+			font-size: 17px;
+			color: #4D4D4D;
+		}
+
+		.logo{
+			
+			background-color: purple;
+			margin-left: 30px;
+			display: inline-block;
+			line-height: normal;
+			vertical-align: middle;
+			
+
+
+
+		}
+		
+
+		.menu{
+			float: right;
+			padding-right: 50px;
+
+		}
+		
+
+		.menu a{
+			padding-left: 50px;
+		}
+
+
+		.menu a:hover{
+			color: #40B0D3;
+			text-decoration: underline;
+
+		}
+
+		.intro0{
+			height: 570px;
+			line-height: 570px;
+			text-align: center;
+			background-color: gray;
+			
+			
+			
+			
+		}
+
+		.content1{
+			display: inline-block;
+			vertical-align: middle;
+			line-height: normal;
+			
+			
+
+			
+
+			width: 1200px;
+			
+			
+		}
+		
+		.hi{
+			
+			margin-left: 20px;
+			width: 480px;
+			text-align: left;
+			float: left;
+			margin-top: 60px;
+
+		}
+		
+
+		.hi h1{
+			color: white;
+
+		font-size: 51px;
+		font-family: 'Changa One', cursive;
+
+		}
+
+		.hi p{
+			margin-top: 10px;
+			font-size: 12px;
+			font-family: 'Noto Sans KR', sans-serif;
+			color: #333333;
+		}
+
+		.dimage{
+			
+			
+			margin-left: 50px;
+			
+
+		}
+
+		
+
+
+
+		.intro1{
+			height: 570px;
+			
+			
+			
+			line-height: 570px;
+				
+			text-align: center;
+			background-image: url("image/WHAT.png");
+			background-size: cover;
+			
+			
+		}
+		
+
+		.uximage{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate( -50%, -50% );
+			
+
+
+
+			
+			
+			
+		
+
+		}
+		
+		.box{
+			height: 100px;
+			width: 450px;
+			background-color: #F2F2F2;
+			float: left;
+			
+			line-height: 100px;
+			margin-bottom: 30px;
+			box-shadow: 5px 5px 10px #cccccc;
+			border-radius : 15px;
+			color: #4D4D4D;
+			
+		}
+
+
+
+
+		.box:hover{
+			background-color: #41C0F0;
+			color: white;
+
+
+		}
+
+		.box a{
+			display: inline-block;
+			line-height: normal;
+			vertical-align: middle;
+			font-family: 'Ropa Sans', sans-serif;
+			font-size: 17px;
+
+			
+
+		}
+
+		.box.s{
+			text-align: left;
+				
+
+		}
+
+		.box.s a{
+			margin-left: 70px;
+		}
+
+		.box.p{
+			text-align: left;
+		}
+		.box.p a{
+			margin-left: 70px;
+		}
+
+
+		.box.i{
+			text-align: right;
+		}
+
+		.box.i a{	margin-right: 70px;
+
+		}
+
+		.box.w{
+			text-align: right;
+		}
+
+		.box.w a{	margin-right: 70px;
+
+		}
+
+		.career { 
+			
+			width: 900px;
+			display: inline-block;
+			line-height: normal;
+			vertical-align: middle;
+			position: relative;
+			
+		}
+		
+
+		.pp p{
+			margin-top: 10px;
+			font-family: 'Noto Sans KR', sans-serif;
+			color: #0E6E95;
+
+		}
+
+
+
+	
+		.intro2{
+			height:1140px;
+			
+			background-image: url("image/project.png");
+			background-size: auto;
+			background-repeat: no-repeat;
+			
+		}
+
+
+		.project{
+			
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 160px;
+
+		
+
+		}
+
+
+		.cc{
+			box-shadow: 5px 5px 10px #cccccc;
+			border-radius : 15px;
+		}
+
+		.div1{
+			width: 490px;
+			float: left;
+
+		}
+
+
+		.div2{
+			width: 490px;
+			float: left;
+			margin-left: 20px;
+			
+
+		}
+
+
+
+		.p1{
+			width: 490px;
+			height: 520px;
+			background-color: yellow;
+
+		}
+
+		.p2{
+			width: 490px;
+			height: 270px;
+			background-color: red;
+			margin-top: 20px;
+		}
+
+		.p3{
+			width: 490px;
+			height: 250px;
+			background-color: blue;
+
+		}
+
+		.p4{
+			width: 235px;
+			height: 540px;
+			background-color: green;
+			float: left;
+			margin-top: 20px;
+
+		}
+
+		.p5{
+			width: 235px;
+			height: 260px;
+			background-color: orange;
+			float: left;
+			margin-top: 20px;
+			margin-left: 20px;
+			
+
+		}
+
+		.p6{
+			width: 235px;
+			height: 260px;
+			background-color: red;
+			float: left;
+			margin-top: 20px;
+			margin-left: 20px;
+			
+		}
+		
+
+		.clearfix{
+			clear: left;
+		}
+		
+
+		.intro3{
+			height:570px;
+			line-height: 570px;
+			
+			background-image: url(image/interest.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			text-align: center;
+
+			
+		}
+
+		
+		.photos{
+			display: inline-block;
+			line-height: normal;
+			vertical-align: middle;
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.photo1{
+			width: 313px;
+			height: 313px;
+			margin-right: 20px;
+			background-color: gray;
+			float: left;
+
+		}
+
+		.photo2{
+			width: 313px;
+			height: 313px;
+			margin-right: 20px;
+			background-color: gray;
+			float: left;
+
+		}
+
+		.photo3{
+			width: 313px;
+			height: 313px;
+			background-color: gray;
+			float: left;
+
+		}
+
+		.footer{
+			height: 100px;
+			
+			line-height: 100px;
+			text-align: center;
+			font-family: 'Ropa Sans', sans-serif;
+			color: white;
+		}
+		
+
+		.icon{
+			padding-right: 10px;
+		}
+
+		
+		.sns{
+			display: inline-block;
+			vertical-align: middle;
+			line-height: normal;
+		}
+		
+		.sns a{
+			text-decoration: none;
+		}
+		.sns img{
+			width:30px;
+			
+		}
+
+
+		.copy{
+			text-align: right;
+		}
+	</style>
+
+
+</head>
+
+
+
+<body>
+	<div class="navbar">
+		
+		<a href="../home.html">
+		<img src="https://cdn-images-1.medium.com/max/1600/1*nZgHhWUTYKXNVym_TKikgA.png" width="120" height="60" class="logo">
+		</a>	
+		
+
+		<div class="menu">
+			<a href="about.html">ABOUT</a>
+			<a href="project.html">PROJECT</a>
+			<a href="interest.html">INTEREST</a>
+			<a href="contact.html">CONTACT</a>	
+		</div>
+	
+	</div>
+
+
+	
+	<div class="main">
+
+
+
+		<div class="intro0">
+			<div class="content1">
+				<div class="hi">
+
+					<h1>HI<br>
+					I AM<br>
+					UX DESIGNER</h1>
+
+					<p>사용자 경험을 바탕으로 이유있는 디자인을하는 디자이너입니다.<br>
+					서비스와 사용자가 인터랙션하며 재미와 흥미를 느끼게 해주는 디자이너가 되겠습니다. <br>
+					기대하지 않았던 가치를 제공하여 행복을 줄 수 있는 디자인을 하고싶습니다.</p>
+				</div>
+
+				
+				<img src="image/designer.png" width="639" class="dimage">
+					
+
+			</div>
+
+			
+		</div>
+
+
+
+		<div class="intro1">
+			
+			
+
+			
+
+			<div class="career">
+
+
+				<div class="box s"><a>SERVICE DESIGN</a></div>
+				<div class="box i"><a>INTERACTION DESIGN</a></div>
+				<div class="box p"><a>PRODUCT DESIGN</a></div>
+				<div class="box w"><a>WEB DESIGN</a></div>
+				
+				<div class="uximage">
+				<img src="image/ux.png">
+					<div class="pp">
+						<p>“사용자 분석을 기반으로 한 디자인”</p>
+					</div>
+				</div>
+				
+				
+
+			</div>
+
+			
+			
+						
+		</div>
+
+		<div class="intro2">
+
+			<div class="project">
+
+				<div class="div1">
+					<div class="cc p1"></div>					
+					<div class="cc p2"></div>
+
+				</div>
+					
+				
+				<div class="div2">
+					<div class="cc p3"></div>					
+					<div class="cc p4"></div>
+					<div class="cc p5"></div>					
+					<div class="cc p6"></div>
+					
+				</div>
+
+				<div class="clearfix"></div>
+
+			</div>
+
+		</div>
+		
+		
+
+		<div class="intro3">
+			
+			<div class="photos">
+				<div class="cc photo1"></div>
+				<div class="cc photo2"></div>
+				<div class="cc photo3"></div>
+			</div>
+			
+		</div>
+
+		
+	</div>
+
+
+
+	<div class="footer">
+
+		<div class="sns">
+
+			<a href="" class="icon facebook">
+				<img src="image/faceboo.png">
+			</a>
+
+			<a href="" class="icon instagram">
+				<img src="image/insta.png">
+			</a>
+
+			<a href="" class="icon naver">
+				<img src="image/naver.png">
+			</a>
+
+			<p>© All Rights Reserved. Choi Ji Youn</p>
+
+		</div>
+		
+		
+			
+		
+	</div>
+
+
+	
+</body>
+
+
+
+
+</html>
